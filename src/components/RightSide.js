@@ -6,10 +6,8 @@ import '../css/rightside.css';
 function RightSide() {
     return (
         <div className="mt-4">
-            <img src={Player} alt="" style={{width:'700px'}}></img>
-            <div className="d-inline"><img className="App-logo" src={Applogo} alt="" style={{width:'150px'}}/></div>
-            
-
+            <img className="img-fluid" src={Player} alt="" style={{width:'700px'}}></img>
+            <div className="d-inline"><img className="App-logo img-fluid" src={Applogo} alt="" style={{width:'140px'}}/></div>
         </div>
     )
 }

@@ -4,8 +4,8 @@ body {
 }
 
 .col-lg-7{
-  height: 100vh;
   background: linear-gradient(133deg,  rgba(16,12,37,0.4) 54%, rgba(81,26,203,0.1) 10%);
+  position: relative;
 }
 
 
